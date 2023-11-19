@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hobbyHorsing{
+    background-color: rgb(25, 25, 25);
+    display: flex; 
+    align-items: flex-start;;
+    align-items: flex-start;
+}
+
+.mainH1{
+    margin-top: 3%;
+    color: rgb(230, 230, 230);
+}
+
+@keyframes moveAtStart {
+    0% {
+        transform: translateX(-400px);
+    }
+    70%{
+        transform: translateX(-100px) translateY(-50px); 
+    }
+    100% {
+        transform: translateX(0px); 
+    }
+}
+.moving{
+    animation: moveAtStart 500ms linear forwards;
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+.imageContainer {
+    margin: 2%;
+    position: relative;
+    width: 500px; 
+    height: 500px;
+    overflow: hidden;
+
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+
+}
+
+.imageContainer img {
+    display: block;
+}
+
+
+.blackBG{
+    filter: blur(3px) brightness(0);
+
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.mainHorse{
+    position: absolute;
+    z-index: 1;
+}
+
+
+.textContainer{
+    width: 50%;
+    height: 100%;
+    padding-right: 5%;
+}
+
+.textContainer p{
+    color: rgb(230, 230, 230);
+}
+
+.header{
+    width: 100%;
+}
+
+
+
