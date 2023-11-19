@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -26,4 +26,14 @@ li a {
 
 li a:hover {
     background-color: #191919;
-}
+} */
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
+.logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 
