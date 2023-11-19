@@ -16,6 +16,11 @@ li {
     float: left;
 }
 
+img{
+    display: block;
+    width: 12.3%;
+}
+
 li a {
     display: block;
     color: white;
