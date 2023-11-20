@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+}
+
+.hobbyHorsing{
+    background-color: rgb(25, 25, 25);
+    display: flex; 
+    align-items: flex-start;
+}
+
+.mainH1{
+    margin-top: 3%;
+    color: rgb(230, 230, 230);
+}
+
+@keyframes moveAtStart {
+    0% {
+        transform: translateX(-400px);
+    }
+    70%{
+        transform: translateX(-100px) translateY(-50px); 
+    }
+    100% {
+        transform: translateX(0px); 
+    }
+}
+.moving{
+    animation: moveAtStart 500ms linear forwards;
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+/* White container where is horse  */
+
+.imageContainer {
+    margin: 2%;
+    position: relative;
+    width: 1440px; 
+    height: 1440px;
+    overflow:hidden;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+
+    max-height: 500px;
+    min-width: 320px;
+
+    max-width: 500px;
+    min-width: 320px;
+}
+
+.imageContainer img {
+    display: block;
+}
+
+/* HorseShadow */
+.blackBG{
+    filter: blur(3px) brightness(0);
+
+    position: absolute;
+    top: 20px;
+    left: 15px;
+
+}
+/* Horse */
+.mainHorse{
+    position: absolute;
+    z-index: 1;
+   
+
+   
+}
+
+
+.textContainer{
+    width: 50%;
+    height: 100%;
+    padding-right: 5%;
+}
+
+.textContainer p{
+    color: rgb(230, 230, 230);
+}
+
+.header{
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 990px) {
+    .hobbyHorsing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textContainer {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .moving {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .imageContainer {
+        max-width: 320px;
+        max-height: 320px;
+
+        
+
+    }
+
+/* HorseShadow */
+.blackBG{
+    max-width: 320px;
+    max-height: 320px;
+    margin: 10%;
+}
+
+/* Horse */
+.mainHorse{
+    max-width: 320px;
+    max-height: 320px;
+    margin: 10%;
+}
+
+}
+
