@@ -88,6 +88,13 @@ body {
     width: 100%;
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
 @media (max-width: 990px) {
     .hobbyHorsing {
         flex-direction: column;
