@@ -15,10 +15,7 @@
 </style>
 </head>
 <body class="body">
-    
 <!-- NavigationBar -->
-
-
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark navbar-light m-0">
   <a class="navbar-brand px-3 mb-auto" href="../Home/main.html"> <img src="../img\HobihorsingLogo.png" alt="logo" width="55px" height="55px"> </a> 
   <div>
@@ -29,10 +26,10 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../Home/main.html">Home</a>
+          <a class="nav-link" href="../Home/main.html" >Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../News/News.html">News</a>
+            <a class="nav-link" href="../News/News.html" style="font-size: 115%;" >News</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../Shop/Shop.html">Shop</a>
@@ -43,55 +40,34 @@
       </div>
     </div>
 </nav>
-<!--  -->
-
-
-
 <header class="header">
-  <h1>Your News Website</h1>
+  <h1>All news about hobbyhorsing</h1>
 </header>
-
-<!-- script for read more -->
-
-<script>
-  function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+  <!--  -->
   
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more";
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less";
-      moreText.style.display = "inline";
-    }
-  } 
-</script>
+  
+  <div class="MainNews">
+    <img src="\hobihorsing\News\NewsImg\1.png" alt="" title="">
+    <p style="color: green;">Some News Some News Some News Some News Some News Some News Some News Some News Some News Some News </p>
+  </div>
+  
+  <div class="OtherNews">
+    <img src="\hobihorsing\News\NewsImg\2.png" alt="" title="" >
+    <p style="color: green;">Some News Some News Some News Some News Some News Some News Some News Some News Some News Some News </p>
+  </div>
+    <div class="OtherNews">
+    <img src="\hobihorsing\News\NewsImg\3.png" alt="" title="" >
+    <p style="color: green;">Some News Some News Some News Some News Some News Some News Some News Some News Some News Some News </p>
+  </div>
+    <div class="OtherNews">
+    <img src="\hobihorsing\News\NewsImg\4.png" alt="" title="" >
+    <p style="color: green;">Some News Some News Some News Some News Some News Some News Some News Some News Some News Some News </p>
+    </div>
+  </div>
 
+  
 
-
-
-
-<section class="section">
-  <article>
-      <h2>Breaking News</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget lacus augue.</p>
-      <p><a href="#">Read more</a></p>
-  </article>
-
-  <article class="article">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span>
-      <span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
-      
-      <button onclick="myFunction()" id="myBtn">Read more</button> 
-  </article>
-
-  <!-- Add more articles as needed -->
-</section>
-
+  <!--  -->
 <footer class="footer">
   <p>&copy; 2023 Your News Website. All rights reserved.</p>
 </footer>
